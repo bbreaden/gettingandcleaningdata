@@ -1,6 +1,5 @@
-# Getting and Cleaning Data
+# Peer Graded Assignment for Getting and Cleaning Data
 Part of  Data Science Specialization on Coursera
-Peer Graded Assignment
 
 The script "run_analysis.R" reformats the data contained in the 
 "Human Activity Recognition Using Smartphones Data Set" for further analysis
