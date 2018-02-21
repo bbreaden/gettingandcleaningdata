@@ -12,6 +12,23 @@ each file into a variable in r.
 The script then reformats and combines the data and labels that were read from 
 the zipped files, according to step 1 to 5 of the project instructions.
 
+# STEP 1
+## Merge the training and the test sets to create one data set.
+
+# STEP 2
+## Extract only the measurements on the mean and standard deviation 
+## for each measurement.
+
+# STEP 3
+## Use descriptive activity names to name the activities in the data set
+
+# STEP 4
+## Appropriately label the data set with descriptive variable names.
+
+# STEP 5
+## Use this data to create a second, independent tidy data set with the 
+## average of each variable for each activity and each subject.
+
 The details of each step are shown as comments in the R code ("run_analysis.R").
 The script also prints messages to the r console to tell the user what it is
 doing.
