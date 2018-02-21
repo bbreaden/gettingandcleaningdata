@@ -34,6 +34,7 @@ Finally the script writes the 'tidy' dataset to a text file (comma-separated) ca
   This is then written into the "tidydata.txt" file.
 
 3. Information on the Original Data
+
 (source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip )
 
 
