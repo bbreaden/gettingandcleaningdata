@@ -13,3 +13,15 @@ Finally the script writes the 'tidy' dataset to a text file (comma-separated) ca
 
 2. Variables
 
+"activity_labels" contain the labels (character strings) describing each variable.
+"features" contains data from the features.txt file. 
+"subject_test" and "subject_train" contain vectors with test and training data on the subjects.
+  These are combined into "subjects" which contains both.
+"X_test" and "X_train" contain data frames with the main test and training data.
+  These are combined (using rbind) into "Xdataset" which contains both.
+"y_test" and "y_train" are vectors containing the activities data from the test and training files.
+  These are combined into "ylabels" which contains both.
+"dats" combines "subjects", "ylabels" and "Xdataset" into one data frame.
+"actions" uses "activity_labels" to name the activities in "dats" (originally the data from "ylabels").
+"tidy" is the result of melting and recasting "dats" to show the averages for each subject and activity.
+  This is then written into the "tidydata.txt" file.
